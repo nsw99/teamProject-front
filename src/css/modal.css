@@ -1,0 +1,72 @@
+.Modal {
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr 1fr 2fr;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  height: 450px;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  z-index: 4;
+  border: 5px solid burlywood;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.top-value {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.top {
+  display: flex;
+  align-items: center;
+}
+
+.checkButton {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-bottom: 30px;
+  transform: translateX(-50%);
+}
+
+.ids {
+  width: 200px;
+  margin-left: 46px;
+}
+
+.emails {
+  width: 200px;
+  margin-left: 46px;
+}
+
+.registrationBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.label {
+  margin-left: 60px;
+}
+
+.text-danger {
+  margin: 5px;
+  margin-left: 50px;
+}
+
+input {
+  width: 200px;
+}
+
+.close {
+  position: absolute;
+  border-radius: 5px;
+  top: 15px;
+  right: 15px;
+}
